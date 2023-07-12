@@ -19,6 +19,7 @@
     padding: 10px;
     margin: none;
     border-radius: 5px;
+    border: none;
 
 }
 
@@ -88,18 +89,74 @@
 }
 
 .b-image {
- background-image: url("Flower Asset/Rectangle 9.png");
- height: 100vh;
-margin-top: 100px;
- background-repeat: no-repeat;
+    background-image: url("Flower Asset/Rectangle 9.png");
+    margin: 50px 5px 10px 10px;
+    background-repeat: no-repeat;
+    height: 70vh;
+
 }
+
 .form {
     text-align: center;
-    padding-top: 100px;
-    
+    padding-top: 190px;
+
+
 }
+
 .last-form {
     text-align: center;
-   
 
+
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 120px;
+    margin-top: 60px;
+}
+
+.all-flower {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.featured {
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.featured-title{
+    font-size: 60px;
+}
+.flower{
+    background-color:#A7216226;
+    padding:20px 20px 0px 20px;
+    border-radius: 50% 50% 0 0;
+    width: 400px;
+    text-align: center;
+    
+    height: 420px;
+    overflow: hidden;
+    
+}
+.flower img {
+    width: 70%;
+}
+.flower2 {
+    background-color: #0597A026;
+}
+.flower3 {
+    background-color: #477D1126;
+}
+.email {
+    width: 40%;
+    padding: 12px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
 }
