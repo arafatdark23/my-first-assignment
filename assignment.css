@@ -1,6 +1,6 @@
 .banner {
     display: flex;
-    background-color: brown;
+    background-color: #E554731A;
     text-align: center;
     justify-content: space-around;
     align-items: center;
@@ -9,8 +9,9 @@
     padding: 0 150px;
     margin-bottom: 0px;
 }
-.position{
-    
+
+.position {
+
     text-align: start;
 }
 
@@ -18,33 +19,40 @@
     padding: 10px;
     margin: none;
     border-radius: 5px;
-   
+
 }
+
 .btn {
-    background-color:red;
+    background-color: red;
 }
+
 .banner-title {
     font-size: 50px;
     font-weight: 600px;
 }
+
 .banner-description {
     margin-top: 0px;
 }
+
 .banner-picture {
     height: 500px;
     width: 350px;
-   
+
     padding: 50px 0 0 100px;
 }
-.second-step{
+
+.second-step {
     text-align: center;
 }
-.second-images{
+
+.second-images {
     display: flex;
     width: 70%;
     gap: 10px;
     text-align: center;
 }
+
 .feature {
     display: flex;
     text-align: center;
@@ -56,6 +64,42 @@
     margin-bottom: 0px;
     background-color: #E554730D;
 }
+
 .colorful {
     color: #E55473;
+}
+
+.social {
+    text-align: center;
+}
+
+.social-pictures {
+    display: flex;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    gap: 20px;
+
+}
+
+.social-header {
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+.b-image {
+ background-image: url("Flower Asset/Rectangle 9.png");
+ height: 100vh;
+margin-top: 100px;
+ background-repeat: no-repeat;
+}
+.form {
+    text-align: center;
+    padding-top: 100px;
+    
+}
+.last-form {
+    text-align: center;
+   
+
 }
